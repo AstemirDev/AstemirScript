@@ -1,0 +1,16 @@
+math = lib("math")
+
+type Vec2:
+    x = 0
+    y = 0
+
+    func init(x,y):
+        pass
+
+    func to_str():
+        res = "vec2(%s,%s)"
+        return res.format(x,y)
+
+v = Vec2(1,0)
+
+print v
